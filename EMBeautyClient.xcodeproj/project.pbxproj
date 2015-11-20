@@ -1,0 +1,527 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5CF450CF1BFEFECD006A1044 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CF450CE1BFEFECD006A1044 /* main.m */; };
+		5CF450D21BFEFECD006A1044 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CF450D11BFEFECD006A1044 /* AppDelegate.m */; };
+		5CF450D51BFEFECD006A1044 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CF450D41BFEFECD006A1044 /* FirstViewController.m */; };
+		5CF450D81BFEFECD006A1044 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CF450D71BFEFECD006A1044 /* SecondViewController.m */; };
+		5CF450DB1BFEFECD006A1044 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5CF450D91BFEFECD006A1044 /* Main.storyboard */; };
+		5CF450DD1BFEFECD006A1044 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5CF450DC1BFEFECD006A1044 /* Assets.xcassets */; };
+		5CF450E01BFEFECD006A1044 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5CF450DE1BFEFECD006A1044 /* LaunchScreen.storyboard */; };
+		5CF450EB1BFEFECD006A1044 /* EMBeautyClientTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CF450EA1BFEFECD006A1044 /* EMBeautyClientTests.m */; };
+		5CF450F61BFEFECD006A1044 /* EMBeautyClientUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CF450F51BFEFECD006A1044 /* EMBeautyClientUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5CF450E71BFEFECD006A1044 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5CF450C21BFEFECD006A1044 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5CF450C91BFEFECD006A1044;
+			remoteInfo = EMBeautyClient;
+		};
+		5CF450F21BFEFECD006A1044 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5CF450C21BFEFECD006A1044 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5CF450C91BFEFECD006A1044;
+			remoteInfo = EMBeautyClient;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5CF450CA1BFEFECD006A1044 /* EMBeautyClient.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EMBeautyClient.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5CF450CE1BFEFECD006A1044 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5CF450D01BFEFECD006A1044 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		5CF450D11BFEFECD006A1044 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		5CF450D31BFEFECD006A1044 /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		5CF450D41BFEFECD006A1044 /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		5CF450D61BFEFECD006A1044 /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		5CF450D71BFEFECD006A1044 /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		5CF450DA1BFEFECD006A1044 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5CF450DC1BFEFECD006A1044 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5CF450DF1BFEFECD006A1044 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5CF450E11BFEFECD006A1044 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5CF450E61BFEFECD006A1044 /* EMBeautyClientTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EMBeautyClientTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5CF450EA1BFEFECD006A1044 /* EMBeautyClientTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EMBeautyClientTests.m; sourceTree = "<group>"; };
+		5CF450EC1BFEFECD006A1044 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5CF450F11BFEFECD006A1044 /* EMBeautyClientUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EMBeautyClientUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5CF450F51BFEFECD006A1044 /* EMBeautyClientUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EMBeautyClientUITests.m; sourceTree = "<group>"; };
+		5CF450F71BFEFECD006A1044 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5CF450C71BFEFECD006A1044 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5CF450E31BFEFECD006A1044 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5CF450EE1BFEFECD006A1044 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5CF450C11BFEFECD006A1044 = {
+			isa = PBXGroup;
+			children = (
+				5CF450CC1BFEFECD006A1044 /* EMBeautyClient */,
+				5CF450E91BFEFECD006A1044 /* EMBeautyClientTests */,
+				5CF450F41BFEFECD006A1044 /* EMBeautyClientUITests */,
+				5CF450CB1BFEFECD006A1044 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5CF450CB1BFEFECD006A1044 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5CF450CA1BFEFECD006A1044 /* EMBeautyClient.app */,
+				5CF450E61BFEFECD006A1044 /* EMBeautyClientTests.xctest */,
+				5CF450F11BFEFECD006A1044 /* EMBeautyClientUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5CF450CC1BFEFECD006A1044 /* EMBeautyClient */ = {
+			isa = PBXGroup;
+			children = (
+				5CF450D01BFEFECD006A1044 /* AppDelegate.h */,
+				5CF450D11BFEFECD006A1044 /* AppDelegate.m */,
+				5CF450D31BFEFECD006A1044 /* FirstViewController.h */,
+				5CF450D41BFEFECD006A1044 /* FirstViewController.m */,
+				5CF450D61BFEFECD006A1044 /* SecondViewController.h */,
+				5CF450D71BFEFECD006A1044 /* SecondViewController.m */,
+				5CF450D91BFEFECD006A1044 /* Main.storyboard */,
+				5CF450DC1BFEFECD006A1044 /* Assets.xcassets */,
+				5CF450DE1BFEFECD006A1044 /* LaunchScreen.storyboard */,
+				5CF450E11BFEFECD006A1044 /* Info.plist */,
+				5CF450CD1BFEFECD006A1044 /* Supporting Files */,
+			);
+			path = EMBeautyClient;
+			sourceTree = "<group>";
+		};
+		5CF450CD1BFEFECD006A1044 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5CF450CE1BFEFECD006A1044 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5CF450E91BFEFECD006A1044 /* EMBeautyClientTests */ = {
+			isa = PBXGroup;
+			children = (
+				5CF450EA1BFEFECD006A1044 /* EMBeautyClientTests.m */,
+				5CF450EC1BFEFECD006A1044 /* Info.plist */,
+			);
+			path = EMBeautyClientTests;
+			sourceTree = "<group>";
+		};
+		5CF450F41BFEFECD006A1044 /* EMBeautyClientUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5CF450F51BFEFECD006A1044 /* EMBeautyClientUITests.m */,
+				5CF450F71BFEFECD006A1044 /* Info.plist */,
+			);
+			path = EMBeautyClientUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5CF450C91BFEFECD006A1044 /* EMBeautyClient */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5CF450FA1BFEFECD006A1044 /* Build configuration list for PBXNativeTarget "EMBeautyClient" */;
+			buildPhases = (
+				5CF450C61BFEFECD006A1044 /* Sources */,
+				5CF450C71BFEFECD006A1044 /* Frameworks */,
+				5CF450C81BFEFECD006A1044 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EMBeautyClient;
+			productName = EMBeautyClient;
+			productReference = 5CF450CA1BFEFECD006A1044 /* EMBeautyClient.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5CF450E51BFEFECD006A1044 /* EMBeautyClientTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5CF450FD1BFEFECD006A1044 /* Build configuration list for PBXNativeTarget "EMBeautyClientTests" */;
+			buildPhases = (
+				5CF450E21BFEFECD006A1044 /* Sources */,
+				5CF450E31BFEFECD006A1044 /* Frameworks */,
+				5CF450E41BFEFECD006A1044 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5CF450E81BFEFECD006A1044 /* PBXTargetDependency */,
+			);
+			name = EMBeautyClientTests;
+			productName = EMBeautyClientTests;
+			productReference = 5CF450E61BFEFECD006A1044 /* EMBeautyClientTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5CF450F01BFEFECD006A1044 /* EMBeautyClientUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5CF451001BFEFECD006A1044 /* Build configuration list for PBXNativeTarget "EMBeautyClientUITests" */;
+			buildPhases = (
+				5CF450ED1BFEFECD006A1044 /* Sources */,
+				5CF450EE1BFEFECD006A1044 /* Frameworks */,
+				5CF450EF1BFEFECD006A1044 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5CF450F31BFEFECD006A1044 /* PBXTargetDependency */,
+			);
+			name = EMBeautyClientUITests;
+			productName = EMBeautyClientUITests;
+			productReference = 5CF450F11BFEFECD006A1044 /* EMBeautyClientUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5CF450C21BFEFECD006A1044 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = yanfa06;
+				TargetAttributes = {
+					5CF450C91BFEFECD006A1044 = {
+						CreatedOnToolsVersion = 7.1.1;
+					};
+					5CF450E51BFEFECD006A1044 = {
+						CreatedOnToolsVersion = 7.1.1;
+						TestTargetID = 5CF450C91BFEFECD006A1044;
+					};
+					5CF450F01BFEFECD006A1044 = {
+						CreatedOnToolsVersion = 7.1.1;
+						TestTargetID = 5CF450C91BFEFECD006A1044;
+					};
+				};
+			};
+			buildConfigurationList = 5CF450C51BFEFECD006A1044 /* Build configuration list for PBXProject "EMBeautyClient" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5CF450C11BFEFECD006A1044;
+			productRefGroup = 5CF450CB1BFEFECD006A1044 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5CF450C91BFEFECD006A1044 /* EMBeautyClient */,
+				5CF450E51BFEFECD006A1044 /* EMBeautyClientTests */,
+				5CF450F01BFEFECD006A1044 /* EMBeautyClientUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5CF450C81BFEFECD006A1044 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5CF450E01BFEFECD006A1044 /* LaunchScreen.storyboard in Resources */,
+				5CF450DD1BFEFECD006A1044 /* Assets.xcassets in Resources */,
+				5CF450DB1BFEFECD006A1044 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5CF450E41BFEFECD006A1044 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5CF450EF1BFEFECD006A1044 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5CF450C61BFEFECD006A1044 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5CF450D81BFEFECD006A1044 /* SecondViewController.m in Sources */,
+				5CF450D21BFEFECD006A1044 /* AppDelegate.m in Sources */,
+				5CF450D51BFEFECD006A1044 /* FirstViewController.m in Sources */,
+				5CF450CF1BFEFECD006A1044 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5CF450E21BFEFECD006A1044 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5CF450EB1BFEFECD006A1044 /* EMBeautyClientTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5CF450ED1BFEFECD006A1044 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5CF450F61BFEFECD006A1044 /* EMBeautyClientUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5CF450E81BFEFECD006A1044 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5CF450C91BFEFECD006A1044 /* EMBeautyClient */;
+			targetProxy = 5CF450E71BFEFECD006A1044 /* PBXContainerItemProxy */;
+		};
+		5CF450F31BFEFECD006A1044 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5CF450C91BFEFECD006A1044 /* EMBeautyClient */;
+			targetProxy = 5CF450F21BFEFECD006A1044 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5CF450D91BFEFECD006A1044 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5CF450DA1BFEFECD006A1044 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5CF450DE1BFEFECD006A1044 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5CF450DF1BFEFECD006A1044 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5CF450F81BFEFECD006A1044 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5CF450F91BFEFECD006A1044 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5CF450FB1BFEFECD006A1044 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = EMBeautyClient/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = EM.EMBeautyClient;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		5CF450FC1BFEFECD006A1044 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = EMBeautyClient/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = EM.EMBeautyClient;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		5CF450FE1BFEFECD006A1044 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = EMBeautyClientTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = EM.EMBeautyClientTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EMBeautyClient.app/EMBeautyClient";
+			};
+			name = Debug;
+		};
+		5CF450FF1BFEFECD006A1044 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = EMBeautyClientTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = EM.EMBeautyClientTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EMBeautyClient.app/EMBeautyClient";
+			};
+			name = Release;
+		};
+		5CF451011BFEFECD006A1044 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = EMBeautyClientUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = EM.EMBeautyClientUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = EMBeautyClient;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		5CF451021BFEFECD006A1044 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = EMBeautyClientUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = EM.EMBeautyClientUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = EMBeautyClient;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5CF450C51BFEFECD006A1044 /* Build configuration list for PBXProject "EMBeautyClient" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5CF450F81BFEFECD006A1044 /* Debug */,
+				5CF450F91BFEFECD006A1044 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5CF450FA1BFEFECD006A1044 /* Build configuration list for PBXNativeTarget "EMBeautyClient" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5CF450FB1BFEFECD006A1044 /* Debug */,
+				5CF450FC1BFEFECD006A1044 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		5CF450FD1BFEFECD006A1044 /* Build configuration list for PBXNativeTarget "EMBeautyClientTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5CF450FE1BFEFECD006A1044 /* Debug */,
+				5CF450FF1BFEFECD006A1044 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		5CF451001BFEFECD006A1044 /* Build configuration list for PBXNativeTarget "EMBeautyClientUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5CF451011BFEFECD006A1044 /* Debug */,
+				5CF451021BFEFECD006A1044 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5CF450C21BFEFECD006A1044 /* Project object */;
+}
